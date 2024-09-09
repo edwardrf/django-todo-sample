@@ -132,7 +132,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CSRF
 CSRF_TRUSTED_ORIGINS = [
-    'https://*.defang.dev'
+    'https://*.defang.dev',
+    'https://*.prod1a.defang.dev'
 ]
 
 if DEBUG:
